@@ -1,0 +1,21 @@
+.card {
+  border-radius: 15px;
+  padding: 30px 20px;
+  background-color: #fff;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.card-image {
+  height: 195px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.card-info {
+  display: flex;
+  gap: 5px;
+  color: #b3b3b3;
+}
+.date {
+  padding-right: 5px;
+  border-right: 2px solid;
+}

@@ -1,0 +1,24 @@
+.header {
+  background-color: white;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #bbbbbb;
+}
+.nav-items-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .nav-items-list {
+    gap: 10px;
+  }
+}
+.nav-item a {
+  color: #212121;
+}
