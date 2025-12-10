@@ -1,16 +1,31 @@
-# React + Vite
+# React + CSS Modules Task — Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple UI built with React and CSS Modules, focusing on modular styling, form handling, validation, and navigation between pages.
 
-Currently, two official plugins are available:
+## Key Concepts Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Components: Components like Navbar, ContactForm, and App.jsx Page were created to structure the app.
 
-## React Compiler
+CSS Modules: Styles were scoped locally to each component, avoiding conflicts and keeping the design consistent.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Form Handling: Controlled inputs were used to manage form values, with validation logic applied to ensure correct user input.
 
-## Expanding the ESLint configuration
+Validation: Regex and conditional checks were implemented to prevent invalid names, emails, and empty fields.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Routing: React Router DOM was used to navigate between pages smoothly, creating a multi-page experience inside a single-page app.
+
+State Management: React state hooks (`useState`) were applied more extensively to track form values, validation errors, and UI changes.
+
+Rendering with State: Learned how re-rendering works when state changes, and how to optimize updates for better performance.
+
+## Technologies
+
+React, CSS Modules, JavaScript, React Router DOM
+
+## What I Learned
+
+- Working with CSS Modules to keep styles modular and conflict-free.  
+- Handling forms in React, controlling input values, and applying validation rules.  
+- Navigating between pages using React Router DOM.  
+- Applying state management more deeply to control UI behavior.  
+- Understanding how React re-renders components when state changes, and how to use that knowledge to build responsive, dynamic UIs.
