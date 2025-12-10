@@ -5,18 +5,18 @@ const Navbar = () => {
   return (
     <header className={style.header}>
       <nav className={`container ${style.nav}`}>
-        <Link to="">
+        <Link to="/">
           <h2 className={style.logo}>Logo</h2>
         </Link>
         <ul className={style["nav-items-list"]}>
           <li className={style["nav-item"]}>
-            <Link to="">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li className={style["nav-item"]}>
-            <Link to="">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li className={style["nav-item"]}>
-            <Link to="">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
